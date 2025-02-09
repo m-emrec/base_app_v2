@@ -38,11 +38,13 @@ dependencies:
   # for toast messages -> https://pub.dev/packages/toastification
   toastification: ^2.3.0
   # for skeleton loading -> https://pub.dev/packages/skeletonizer
-
+  ## State management -> https://pub.dev/packages/flutter_riverpod
+  flutter_riverpod:
   # https://pub.dev/packages/google_fonts
   google_fonts: ^6.2.1
   # for lottie animations -> https://pub.dev/packages/lottie
-
+  # for skeleton loading -> https://pub.dev/packages/skeletonizer
+  skeletonizer: ^1.4.2
   # for markdown support -> https://pub.dev/packages/flutter_markdown
   flutter_markdown: ^0.7.3+2
   flutter_svg: ^2.0.16
