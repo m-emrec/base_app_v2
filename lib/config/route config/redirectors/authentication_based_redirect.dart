@@ -5,7 +5,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../../features/auth/data/services/auth_service.dart';
 import '../base_route_redirector.dart';
-import '../routes/initial_route.dart';
 import '../routes/signin_route.dart';
 
 /// Checks if the user is authenticated and determines the appropriate route.
