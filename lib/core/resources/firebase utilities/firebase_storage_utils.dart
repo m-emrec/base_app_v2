@@ -23,7 +23,7 @@ mixin FirebaseStorageUtils on FirebaseUtils {
   ///
   /// ! - **Use with caution, as this operation is irreversible.**
   ///
-  /// ! - **IT deletes all files and subfolders in the specified folder.**
+  /// ! - **IT deletes all files and sub-folders in the specified folder.**
   Future<void> deleteFolderFromFirebaseStorage(String path) async {
     await storage
         .ref(
