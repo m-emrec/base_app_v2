@@ -75,11 +75,9 @@ Future<DataState<User>> fetchUserData() async {
 }
 ```
 
-By structuring data states this way, we ensure **clean and maintainable** code.
-
 ---
 
-## 🚨 Step 2: Handling Errors Gracefully (`error_manager.dart`)
+## `error_manager.dart`
 
 ### 🧐 Why is this important?
 
@@ -111,9 +109,7 @@ This greatly **improves user experience**. 🎯
 
 ---
 
-## 🔧 Step 3: Structuring Business Logic (`use_case.dart`)
-
-### 🧐 Why is this important?
+## `use_case.dart`
 
 A **Use Case** defines the **business logic** of a specific action, ensuring:
 ✅ **Encapsulation** – Each action has its own class.
