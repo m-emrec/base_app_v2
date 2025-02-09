@@ -1,0 +1,208 @@
+{
+    "errors": {
+        "phoneNumberCantStartWithZero": "Lütfen telefon numaranızı başında 0 olmadan yazın.",
+        "user_is_not_guest":"Girilen numara bir misafire ait değil.",
+        "phone_number_already_exists": "Bu telefon numarası zaten bir üye tarafından kullanılıyor.",
+        "too_many_requests":"Çok fazla istek gönderildiği için bir süreliğine bloklandınız. Lütfen bir süre sonra tekrar deneyin.",
+        "user_not_exist": "Görünüşe göre Roof üyesi değilsin. Hemen başvurunu yap ve aramıza katıl!",
+        "invalid_name": "Geçersiz isim.",
+        "invalid_name_length": "İsim en az 3 karakter olmalıdır.",
+        "invalid_phone_number": "Geçersiz telefon numarası.",
+        "invalid_phone_number_length": "Telefon numarası 10 haneli olmalıdır.",
+        "The_email_address_is_already_in_use_by_another_account": "Bu e-posta adresi zaten başka bir hesap tarafından kullanılıyor. Giriş yapmayı deneyin.",
+        "The_email_address_is_badly_formatted": "Lütfen geçerli bir e-posta adresi sağlayın. Örn: xxx@xx.com",
+        "INVALID_LOGIN_CREDENTIALS": "Lütfen e-posta veya şifrenizi kontrol edin.",
+        "invalid_api_key": "Sağlanan API anahtarı geçersiz.",
+        "user_disabled": "Kullanıcı hesabı bir yönetici tarafından devre dışı bırakıldı.",
+        "user_not_found": "Bu tanımlayıcı ile eşleşen bir kullanıcı kaydı bulunamadı.",
+        "wrong_password": "Verilen e-posta için şifre geçersiz.",
+        "email_already_in_use": "Bu e-posta adresi zaten başka bir hesap tarafından kullanılıyor.",
+        "invalid_email": "E-posta adresi geçerli değil.",
+        "operation_not_allowed": "Bu işlem izin verilmiyor. Yönetici ile iletişime geçin.",
+        "weak_password": "Şifre en az 6 karakter uzunluğunda olmalı, en az bir büyük harf ve bir sembol içermelidir.",
+        "provider_already_linked": "Bu sağlayıcı zaten kullanıcıya bağlı.",
+        "credential_already_in_use": "Bu kimlik bilgisi zaten başka bir kullanıcı hesabıyla ilişkilendirilmiş.",
+        "requires_recent_login": "Bu işlem hassastır ve yakın zamanda kimlik doğrulaması gerektirir. Lütfen yeniden giriş yapın.",
+        "user_mismatch": "Sağlanan kimlik bilgileri, önceden giriş yapılmış kullanıcıyla eşleşmiyor.",
+        "provider_not_found": "Kullanıcıyı kimlik doğrulamak için desteklenen bir sağlayıcı bulunamadı.",
+        "invalid_verification_code": "Doğrulama kodu geçersiz.",
+        "invalid_verification_id": "Doğrulama kimliği geçersiz.",
+        "captcha_check_failed": "Sağlanan reCAPTCHA yanıt belirteci geçersiz, süresi dolmuş veya zaten kullanılmış.",
+        "app_not_authorized": "Bu uygulama, sağlanan API anahtarıyla Firebase Kimlik Doğrulama kullanımı için yetkilendirilmemiş.",
+        "expired_action_code": "Eylem kodunun süresi dolmuş.",
+        "invalid_action_code": "Eylem kodu geçersiz. Kod hatalı biçimlendirilmiş veya zaten kullanılmış olabilir.",
+        "invalid_continue_uri": "İstek sırasında sağlanan devam URL'si geçersiz.",
+        "missing_continue_uri": "İstek sırasında bir devam URL'si sağlanmalıdır.",
+        "internal_error": "Bir iç hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "invalid_tenant_id": "Kimlik doğrulama örneğinin kiracı kimliği geçersiz.",
+        "tenant_id_mismatch": "Sağlanan kiracı kimliği, kimlik doğrulama örneğinin kiracı kimliğiyle eşleşmiyor.",
+        "unsupported_tenant_operation": "Bu işlem çok kiracılı bir bağlamda desteklenmiyor.",
+        "quota_exceeded": "İşlem kaynak limitleri nedeniyle tamamlanamadı. Firebase desteğiyle iletişime geçin.",
+        "tenant_not_found": "Verilen tanımlayıcı için bir kiracı bulunamadı.",
+        "code_expired": "SMS kodunun süresi dolmuş. Doğrulama kodunu tekrar gönderin.",
+        "user_token_expired": "Kullanıcının belirteci süresi dolmuş. Lütfen yeniden giriş yapın.",
+        "provider_data_not_found": "Verilen sağlayıcı kimliği için bir kullanıcı kaydı bulunamadı.",
+        "invalid_uid": "Sağlanan UID geçersiz.",
+        "permission_denied": "İşlem, yetersiz izinler nedeniyle reddedildi.",
+        "unauthenticated": "İşlem kimlik doğrulama gerektiriyor.",
+        "not_found": "İstenen belge veya kaynak bulunamadı.",
+        "already_exists": "Belge veya kaynak zaten mevcut ve üzerine yazılamaz.",
+        "resource_exhausted": "Kota aşıldı veya oran sınırına ulaşıldı. Firebase desteğiyle iletişime geçin.",
+        "invalid_argument": "Sağlanan argüman geçersiz.",
+        "deadline_exceeded": "İşlemin süresi doldu ve tamamlanamadı.",
+        "aborted": "İşlem, genellikle bir eşzamanlılık sorunu nedeniyle iptal edildi.",
+        "out_of_range": "Sağlanan değer izin verilen aralık dışında.",
+        "unimplemented": "İşlem uygulanmamış veya henüz desteklenmiyor.",
+        "internal": "Bir iç hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "unavailable": "Hizmet şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "data_loss": "Geri alınamaz veri kaybı veya bozulma.",
+        "cancelled": "İşlem iptal edildi.",
+        "unknown": "Bilinmeyen bir hata oluştu.",
+        "account_exists_with_different_credential": "Aynı e-posta adresine sahip ancak farklı kimlik doğrulama bilgilerine sahip bir hesap zaten var. Farklı bir yöntemle giriş yapmayı deneyin veya mevcut hesabı bu kimlik doğrulama sağlayıcısına bağlayın.",
+        "invalid_credential": "Sağlanan kimlik bilgisi geçersiz veya süresi dolmuş. Lütfen yeniden giriş yapın.",
+        "popup_closed_by_user": "Google Oturum Açma penceresi, kullanıcı tarafından giriş işlemi tamamlanmadan kapatıldı.",
+        "popup_blocked": "Tarayıcı Google Oturum Açma penceresini engelledi. Tarayıcı ayarlarından pop-up engellemesini devre dışı bırakın.",
+        "invalid_client_id": "Sağlanan Google API istemci kimliği geçersiz veya yapılandırılmış OAuth 2.0 istemci kimlikleriyle eşleşmiyor.",
+        "network_request_failed": "Google Oturum Açma işlemi sırasında bir ağ hatası oluştu. İnternet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "no_such_provider": "Verilen ID için bir kimlik doğrulama sağlayıcısı bulunamadı. Firebase projesinde Google Oturum Açma'nın etkin olduğundan emin olun.",
+        "token_expired": "Google Oturum Açma belirteci süresi dolmuş. Lütfen yeniden giriş yapın.",
+        "user_cancelled": "Kullanıcı, Google Oturum Açma işlemini iptal etti.",
+        "web_storage_unsupported": "Web depolama şu anda kullanılan tarayıcıda desteklenmiyor. localStorage ve sessionStorage'ın desteklendiğinden emin olun.",
+        "invalid_user_token": "Kullanıcının belirteci geçersiz. Lütfen yeniden giriş yapın.",
+        "custom_token_mismatch": "Özel belirteç farklı bir kitleye karşılık geliyor.",
+        "dynamic_link_not_activated": "Sağlanan dinamik bağlantı alanı Firebase Dinamik Bağlantılar için etkinleştirilmemiş. Firebase konsolunda etkinleştirin.",
+        "dynamic_link_not_match_config": "Sağlanan dinamik bağlantı alanı, Firebase konsolundaki yapılandırılmış alanla eşleşmiyor.",
+        "image_not_found": "Görüntü bulunamadı."
+    },
+    "roles": {
+        "admin": "Admin",
+        "member": "Üye",
+        "guest": "Misafir",
+        "approvedGuest": "Onaylanmış Misafir",
+        "mentor": "Mentör",
+        "mentat": "Mentat"
+    },
+    "phoneCountryCode": "+90",
+    "common": {
+        "cancel": "İptal",
+        "selectAll": "Tümünü Seç",
+        "cut": "Kes",
+        "retry": "Tekrar Dene",
+        "copy": "Kopyala",
+        "paste": "Yapıştır",
+        "undo": "Geri Al",
+        "redo": "İleri Al",
+        "save": "Kaydet",
+        "send":"Gönder",
+        "confirm": "Onayla",
+        "okay": "Tamam",
+        "delete": "Sil",
+        "add": "Ekle",
+        "next": "İleri",
+        "yes": "Evet",
+        "no": "Hayır",
+        "back": "Geri",
+        "edit": "Düzenle",
+        "search": "Ara",
+        "close": "Kapat",
+        "giveUp": "Vazgeç",
+        "gender": {
+            "male": "Erkek",
+            "female": "Kadın",
+            "other": "Diğer"
+        },
+        "validationError":{
+            "required": "Bu alan boş bırakılamaz.",
+            "length": "Bu alan en az {} karakter olmalıdır."
+        }
+    },
+    "auth": {
+        "signin": {
+            "pageTitle": "Giriş Yap",
+            "successfullySignedIn": "Başarıyla giriş yapıldı.",
+            "email": "E-posta",
+            "password": "Şifre",
+            "forgotPassword": "Şifremi Unuttum",
+            "showPassword": "Şifreyi Göster",
+            "validationError": {
+                "email": "Geçerli bir e-posta adresi girin.",
+                "password": "Şifre en az 6 karakter olmalıdır."
+            }
+        }
+    },
+
+    "membersView":{
+        "pageTitle": "Üyeler",
+        "memberCount": "{} Üye",
+        "addMember": "Üye Ekle",
+        "tableColumnLabels": {
+            "memberNumber": "Üye Numarası",
+            "name": "İsim",
+            "membershipEndDate": "Üyelik Bitiş Tarihi",
+            "phoneNumber": "Telefon Numarası",
+            "role": "Rol",
+            "age": "Yaş",
+            "memberShipDuration": "Ne Zamandır Üye"
+        }
+    },
+    "addMember": {
+        "pageTitle": "Üye Ekle",
+        "name": "İsim",
+        "phoneNumber": "Telefon Numarası",
+        "role": "Rol",
+        "gender":"Cinsiyet"
+    },
+"sidebar": {
+    "members": "Üyerler",
+    "feedback": "Geri Bildirimler",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap",
+    "accountSettings": "Hesap Ayarları"
+},
+"feedback":{
+    "aboutPerson": {
+        "title": "Kişilerle İlgili",
+        "aboutAMember": "Bir üye hakkında şikayet",
+        "aboutAnAdmin": "Bir admin/moderatör hakkında şikayet",
+        "inappropriateBehavior": "Taciz veya uygunsuz davranış"
+        },
+        "aboutApp": {
+        "title": "Uygulama Hakkında",
+        "bugReport": "Hata Bildir",
+        "featureRequest": "Özellik İsteği",
+        "performanceIssue": "Performans Sorunu",
+        "other": "Diğer"
+        },
+        "aboutEvent": {
+        "title": "Etkinlik Hakkında",
+        "poorOrganization": "Kötü organizasyon",
+        "cancellation": "İptal veya gecikme",
+        "misinformation": "Yanlış bilgi paylaşımı",
+        "other": "Diğer"
+        },
+        "privacyAndSecurity": {
+        "title": "Gizlilik ve Güvenlik",
+        "dataLeak": "Veri sızıntısı şüphesi",
+        "unauthorizedAccess": "Yetkisiz erişim",
+        "accountBreach": "Hesap güvenliği ihlali"
+        },
+        "paymentIssues": {
+        "title": "Ödeme ve Faturalandırma Sorunları",
+        "incorrectCharge": "Yanlış ücretlendirme",
+        "failedTransaction": "Başarısız işlem",
+        "refundRequest": "İade talebi"
+        },
+        "aboutCommunity": {
+        "title": "Topluluk Kuralları İhlali",
+        "spam": "Spam veya sahte hesaplar",
+        "offensiveContent": "Hakaret veya uygunsuz içerik",
+        "threats": "Tehdit veya hakaret"
+        },
+        "test":"test",
+        "general": {
+        "title": "Genel Şikayetler",
+        "another": "Diğer"
+        }
+}
+   
+}
